@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - entry point
  *
- * print_alphabet - prints the alphabet, in lowercas
- *
- * Return: Always 0.
  */
 void print_alphabet(void)
 {
