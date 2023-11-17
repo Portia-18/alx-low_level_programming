@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * _put_recursion - fun that prints string
+ * @s: string parameter
+ *
+ */
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
