@@ -35,7 +35,5 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	*/
-}
 	return (int _sqrt_calc(int u, int n));
-	
 }
