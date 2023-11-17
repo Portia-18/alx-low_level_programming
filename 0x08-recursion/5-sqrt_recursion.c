@@ -7,6 +7,7 @@
  * Return: evaluate sqrt
  * _sqrt_recursion - recursion sqrt
  * Return: sqrt
+ * not checked
  */
 int _sqrt_calc(int u, int n)
 {
@@ -35,5 +36,5 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	*/
-	return (int _sqrt_calc(int u, int n));
+	return (_sqrt_calc(int u, int n));
 }
