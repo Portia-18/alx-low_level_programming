@@ -2,7 +2,7 @@
 
 /**
  * _str_rec - length
- * @s; pointer to params
+ * @s: pointer to params
  * Return: recursion
  */
 int _str_rec(char *s)
@@ -29,7 +29,7 @@ int pali(char *s, int i)
 	}
 	if (*s == *(s + i))
 	{
-		return (pali(s + 1,i - 2));
+		return (pali(s + 1, i - 2));
 	}
 	return (0);
 }
@@ -41,5 +41,6 @@ int pali(char *s, int i)
 int is_palindrome(char *s)
 {
 	int l = _str_rec(s);
-	return (pali(s , l - 1));
+
+	return (pali(s, l - 1));
 }
